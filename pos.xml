@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cXML SYSTEM "http://xml.cxml.org/schemas/cXML/1.2.014/cXML.dtd">
+<cXML payloadID="93369535150910.10.57.136" timestamp="2000-08-03T08:49:11+07:00">
+    <Request>
+        <OrderRequest>
+            <OrderRequestHeader orderID="DO102880" orderDate="2012-08-03T08:49:09+07:00">
+                <Total>
+                    <Money currency="USD">86.50</Money>
+                </Total>
+                <BillTo>
+                    <Address addressID="12">
+                        <Name>Acme Accounts Payable</Name>
+                        <PostalAddress>
+                            <Street>124 Union Street</Street>
+                            <City>San Francisco</City>
+                            <State isoStateCode="US-CA">CA</State>
+                            <PostalCode>94128</PostalCode>
+                            <Country isoCountryCode="US">United States</Country>
+                        </PostalAddress>
+                    </Address>
+                </BillTo>
+            </OrderRequestHeader>
+            <ItemOut quantity="2">
+                <ItemID>
+                    <SupplierPartID>220-3165</SupplierPartID>
+                </ItemID>
+                <ItemDetail>
+                    <UnitPrice>
+                        <Money currency="USD">55.00</Money>
+                    </UnitPrice>
+                    <Description>Laptop Computer Notebook Pentium® II processor w/AGP, 300 MHz, with 12.1&quot; TFT XGA Display</Description>
+                    <UnitOfMeasure>EA</UnitOfMeasure>
+                </ItemDetail>
+            </ItemOut>
+        </OrderRequest>
+    </Request>
+</cXML>
